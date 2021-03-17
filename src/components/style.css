@@ -1,0 +1,58 @@
+.main-content {
+    background-color: #0d6efd;
+    margin-bottom: 0%;
+}
+.nav-menu {
+    background-color: #0d6efd;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 70vh;
+    text-align: left;
+    padding: 2rem 0;
+}
+.nav-menu span {
+    margin: 2% 0;
+    cursor: pointer;
+    padding: 0 2rem;
+}
+.active-tab {
+    background-color: #ffc107;
+}
+.wrapper {
+    display: flex;
+}
+.detail-wrapper {
+    padding: 1rem;
+    width: -webkit-fill-available;
+}
+.new-user-input {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    text-align: right;
+    margin: 1rem;
+}
+.new-user-input input {
+    margin: 0 1rem;
+    width: 60%;
+}
+.new-user-submit {
+    width: fit-content;
+    text-align: center;
+    margin: 0 auto;
+}
+.balance-wrapper {
+    font-size: 1rem;
+}
+.balance-wrapper select {
+    width: 40%;
+    margin: 2rem 2rem;
+}
+.user-details {
+    margin: 2rem;
+    text-align: left;
+    font-weight: bold;
+}
+.new-funds{
+    margin: 2rem;
+}
